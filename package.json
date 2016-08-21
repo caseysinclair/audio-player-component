@@ -1,0 +1,26 @@
+{
+  "name": "audio-player-es6",
+  "version": "0.0.1",
+  "description": "example component",
+  "main": "audio-player.component.js",
+  "dependencies": {
+    "babel-cli": "^6.11.4"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.13.2",
+    "css-loader": "^0.23.1",
+    "html-loader": "^0.4.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -d --watch",
+    "build": "webpack -p",
+    "server": "webpack-dev-server"
+  },
+  "author": "Casey sinclair",
+  "license": "ISC"
+}

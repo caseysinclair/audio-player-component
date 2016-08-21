@@ -1,0 +1,67 @@
+:host {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  font-family: 'Inconsolata', monospace;
+}
+
+.theme-blue {
+  color: #3a565d;
+  border-color: #27adcc;
+}
+
+.contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 8.5px 0;
+}
+
+.base {
+  background-color: #eee;
+  border-top: solid 2px #ccc;
+}
+
+.player-container {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+}
+
+.timer {
+  font: normal .8em Arial, Helvetica, sans-serif;
+  padding: 0 10px;
+  min-width: 50px;
+  text-align: center;
+  align-self: center;
+  color: #828282;
+}
+
+.progress {
+  flex: 1 0 auto;
+  align-self: center;
+  height: 2px;
+  background-color: #fff;
+  cursor: pointer;
+  width: 60%;
+  transition: width 0.2s linear;
+}
+
+.track {
+  display: flex;
+  border: solid 1.5px;
+  border-color: inherit;
+}
+
+/* controls */
+.icon {
+  font-size: 2em;
+  cursor: pointer;
+  color: inherit;
+}
+
+.icon:hover {
+  opacity: 0.6;
+}
